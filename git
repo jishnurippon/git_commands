@@ -1,0 +1,35 @@
+git commands
+- git init //initialized
+- git clone 'url' //clone git file
+- git add . //add file to repo
+- git commit -a 
+- git commit -m "message" //git commit
+- git status //status of current repo
+- git remote add origin https://------/---.git //remote add git account
+
+- git push origin master //normal push to git repo
+- git push origin master --force //force push to git repo
+- git log //history
+- git log --pretty=oneline //one line history
+- git log --pretty=oneline --max-count=2
+- git log --pretty=oneline --since='5 minutes ago'
+- git log --pretty=oneline --until='5 minutes ago'
+- git log --pretty=oneline --author=
+- git log --pretty=oneline --all 
+
+- git branch test-1 //git branch
+- git branch //show branches
+- git checkout 'branch name' //change to branch
+- git checkout master //switch to master
+- git checkout -b 'name' 'form' //new branch
+- git branch -d name //deleting the branch
+
+- git tag neme //tag something git checkout neme //view 
+- git tag -d name //delete tag
+
+- git commit --amend -m "Add an author/email comment"  //amend the msg
+
+- git merge master //merge to master file from branch
+- git remote show origin //about
+- git fetch //fetch changes
+- git merge origin/master //merging pulled changes
